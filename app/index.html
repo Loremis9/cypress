@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <!-- Formulaire -->
+    <form action="#" method="post">
+        <div>
+            <label for="cipher-key">Cipher Key</label>
+            <input type="number" min="1" max="25" id="cipher-key" data-cy="cipher-key">
+        </div>
+
+        <div>
+            <label for="cipher-key">Message</label>
+            <textarea name="cipher-key" placeholder="Enter a message..." id="cipher-msg"></textarea>
+        </div>
+
+        <button type="submit" id="btn-cipher">Cipher</button>
+    </form>
+
+    <p id="result"></p>
+</body>
+</html>
